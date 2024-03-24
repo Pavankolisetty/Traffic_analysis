@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Traffic Analysis using YOLOv8n Model
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Traffic Analysis project! This project utilizes the powerful YOLOv8n algorithm for object detection and distance estimation in real-time traffic scenarios.
 
-## Available Scripts
+## Table of Contents
+- Project Overview
+- How It Works
+- Getting Started
+- Frontend (React)
+- Backend (Flask)
+- Project Output
+- License
+- Author
 
-In the project directory, you can run:
+## Project Overview
+The Traffic Analysis project aims to detect and classify objects in traffic scenes using YOLOv8n. Additionally, it estimates the distance between the camera and specific objects, providing valuable insights for various applications.
 
-### `npm start`
+## How It Works
+The project leverages the YOLOv8n algorithm to identify objects in real-time traffic images or video streams. After detecting objects, it computes their distances using computer vision techniques.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
+1. Clone this repository to your local machine.
+2. Install the required dependencies listed in `requirements.txt`.
+3. Download the pre-trained YOLOv8n weights and place them in the designated directory.
+4. Run the object detection script, providing the input source (image or video) as an argument.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Frontend (React)
+- Describe how to set up the React frontend.
+- Include any relevant instructions for running the frontend.
 
-### `npm test`
+## Backend (Flask)
+- Describe how to set up the Flask backend.
+- Include any relevant instructions for running the backend.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Proje
 
-### `npm run build`
+https://github.com/Pavankolisetty/Traffic_analysis/assets/94092826/02b2899f-a81a-4642-8e83-e0f8bd4ed779
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ct Output
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
+This project is licensed under the MIT License.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+Pavan kolisetty
