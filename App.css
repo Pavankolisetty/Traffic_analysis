@@ -1,0 +1,127 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the content of the body */
+}
+
+header {
+  background-color: teal; /* Change the background color to teal */
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.about-section {
+  text-align: center; /* Align the text of the about section to the left */
+  margin-bottom: 30px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  text-align: left; /* Align text left within about-text */
+}
+
+.about-image {
+  flex: 1;
+  text-align: right;
+}
+
+/* style for responsive design */
+.about-image img {
+  width: 40%;
+  border-radius: 10%;
+}
+
+@media screen and (max-width: 320px) {
+  .about-image img {
+    width: auto;
+    height: 100%;
+  }
+}
+
+/* style for the upload and image sections */
+.upload-section,
+.video-section {
+  margin-bottom: 30px;
+  text-align: center; /* Align the text of upload and image sections to the left */
+  display:inline-flex;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style for buttons */
+button {
+  padding: 10px 20px;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #00796b; /* Darker teal on hover */
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* style for the footer */
+footer {
+  background-color: teal; /* Change the background color of the footer to teal */
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
